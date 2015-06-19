@@ -1,0 +1,32 @@
+{
+  "name": "vine-scrape-account-stats",
+  "description": "scrape public vine data w/out API access",
+  "version": "0.0.0",
+  "author": "Sean Lang <slang800@gmail.com>",
+  "bin": {
+    "vine-scrape-account-stats": "./bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/slang800/vine-scrape-account-stats/issues"
+  },
+  "dependencies": {
+    "argparse": "^1.0.2",
+    "json-schema": "^0.2.2",
+    "request-promise": "^0.4.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "mocha": "^2.2.4",
+    "should": "^5.2.0"
+  },
+  "homepage": "https://github.com/slang800/vine-scrape-account-stats",
+  "license": "GPLv3",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slang800/vine-scrape-account-stats.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
