@@ -46,7 +46,7 @@ The following example is the same as the last one, but in JavaScript.
 ```js
 var getAccountStats = require('vine-scrape-account-stats').getAccountStats;
 
-getAccountStats(userId: '969179904094908416').then(function(account) {
+getAccountStats({userId: '969179904094908416'}).then(function(account) {
   console.log(account.username + " has " + account.followers + " followers.");
 });
 ```
